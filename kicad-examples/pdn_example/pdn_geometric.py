@@ -16,7 +16,7 @@ pcb_height = 40.0
 # Power traces
 reg_trace_width = 3.5
 bus_width = 2.5
-branch_width = 1.5
+branch_width = 80
 
 # Load positions (two parallel resistive loads)
 # These mark where branches connect to the top of resistors
