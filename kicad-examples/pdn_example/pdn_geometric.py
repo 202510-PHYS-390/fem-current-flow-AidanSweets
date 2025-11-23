@@ -11,12 +11,12 @@ import subprocess
 
 # Geometry (mm)
 pcb_width = 50.0
-pcb_height = 40.0
+pcb_height = 120 #Change this
 
 # Power traces
 reg_trace_width = 3.5
-bus_width = 2.5
-branch_width = 80
+bus_width = 3.5 #change this
+branch_width = .2
 
 # Load positions (two parallel resistive loads)
 # These mark where branches connect to the top of resistors
@@ -25,7 +25,7 @@ load2_pos = (35.0, 15.0)
 
 # Ground
 ground_y = 5.0
-ground_height = 4.0
+ground_height = 5.0
 
 # Resistor dimensions - narrow enough to show effect, wide enough to mesh properly
 # R_2D = L / (σ_eff * w) where σ_eff = 2086 S
